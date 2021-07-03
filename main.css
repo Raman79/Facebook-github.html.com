@@ -1,29 +1,28 @@
-body{
-    height: 100%;
-    width: 100%;
-    background: rgb(2,0,36);
-background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
+body {
+  height: 100%;
+  width: 100;
+  background: #020024;
+  background: -webkit-gradient(linear, left top, right top, from(#020024), color-stop(35%, #090979), to(#00d4ff));
+  background: linear-gradient(90deg, #020024 0%, #090979 35%, #00d4ff 100%);
 }
-img{
-    width: 40%;
-    height: 40%;
- }
-.con{
-    display:flex;
-    flex-direction:row;
+
+img {
+  width: 40%;
+  height: 40%;
+  padding: 10px;
 }
-.second{
-    li{
-    position: relative;
-    left: 15em;
-    bottom: 45px;
-    padding: 10px;
-    }
-}
-.first{
-    li{
-        position: relative;
-        top: 13em;
-        padding: 14px;
-    }
+
+.con {
+  display: -webkit-box;
+  display: -ms-flexbox;
+  display: flex;
+  -webkit-box-orient: horizontal;
+  -webkit-box-direction: normal;
+      -ms-flex-direction: row;
+          flex-direction: row;
+  -ms-flex-wrap: wrap;
+      flex-wrap: wrap;
+  position: relative;
+  top: 12em;
+  left: 3em;
 }
