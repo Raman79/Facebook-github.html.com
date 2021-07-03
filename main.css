@@ -1,20 +1,33 @@
 body{
+    height: 100%;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
-
-img {
-  width: 40%;
-  height: 40%;
-  margin-left: auto;
-  margin-right: auto;
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  padding: 10px;
+img{
+    width: 45%;
+    height: 45%;
+ }
+ .all
+{
+    margin-top: 190px;
 }
-/*# sourceMappingURL=main.css.map */
+.images2{
+    position: relative;
+    margin-left: 10.5em;
+    left: 10px;
+}
+.images3{
+    position: relative;
+    margin-left: 10.5em;
+    left: 10px;
+}
+.images1{
+    position: relative;
+    top: 90px;
+    left: 10px;
+}
+.images4{
+    position: relative;
+    bottom: 90px;
+    left: 10px;
+}
