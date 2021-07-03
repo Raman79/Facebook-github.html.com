@@ -1,34 +1,25 @@
 body{
     height: 100%;
+    width: 100%;
     background: rgb(2,0,36);
 background: linear-gradient(90deg, rgba(2,0,36,1) 0%, rgba(9,9,121,1) 35%, rgba(0,212,255,1) 100%);
 }
 img{
-    width: 35%;
-    height: 35%;
+    width: 40%;
+    height: 40%;
  }
- .all
-{
-    margin-top: 100px;
-}
-.images2{
+.second{
+    li{
     position: relative;
-    margin-left: 15em;
-    left: 10px;
+    left: 15em;
+    bottom: 45px;
+    padding: 10px;
+    }
 }
-.images3{
-    position: relative;
-    margin-left: 15em;
-    left: 10px;
-    top: 20px;
-}
-.images1{
-    position: relative;
-    top: 100px;
-    left: 20px;
-}
-.images4{
-    position: relative;
-    bottom: 80px;
-    left: 20px;
+.first{
+    li{
+        position: relative;
+        top: 13em;
+        padding: 15px;
+    }
 }
