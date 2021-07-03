@@ -12,17 +12,9 @@ img {
   padding: 10px;
 }
 
-.con {
-  display: -webkit-box;
-  display: -ms-flexbox;
-  display: flex;
-  -webkit-box-orient: horizontal;
-  -webkit-box-direction: normal;
-      -ms-flex-direction: row;
-          flex-direction: row;
-  -ms-flex-wrap: wrap;
-      flex-wrap: wrap;
+.con a img {
   position: relative;
-  top: 12em;
+  top: 9em;
   left: 3em;
 }
+/*# sourceMappingURL=main.css.map */
